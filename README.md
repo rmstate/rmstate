@@ -1,32 +1,35 @@
-<!--
-  rmstate — profile README
-  Replace the banner URL with your own image after uploading it to the repository.
--->
+ <div align="center">
 
-<div align="center">
+<img src="rmstate-banner-mono.png" width="100%" alt="rmstate — monochrome manga banner" />
 
-<img src="rmstate-banner.png" width="100%" alt="rmstate monochrome anime banner">
+<br/>
 
-</div>
 # `rmstate_`
 
-**Linux / Networking / Security Engineering**
+**LINUX / NETWORKING / SECURITY ENGINEERING**
 
 *Breaking binaries. Tracing packets. Fixing systems.*
 
-[![Profile](https://img.shields.io/badge/FOCUS-LINUX-8b7bff?style=flat-square)](https://github.com/rmstate)
-[![Networking](https://img.shields.io/badge/NETWORKING-6c8cff?style=flat-square)](https://github.com/rmstate)
-[![Security](https://img.shields.io/badge/SECURITY-cba6f7?style=flat-square)](https://github.com/rmstate)
+[![Linux](https://img.shields.io/badge/LINUX-222222?style=flat-square\&logo=linux\&logoColor=white)](https://github.com/rmstate)
+[![Networking](https://img.shields.io/badge/NETWORKING-222222?style=flat-square\&logo=wireshark\&logoColor=white)](https://github.com/rmstate)
+[![Security](https://img.shields.io/badge/SECURITY-222222?style=flat-square\&logo=protonvpn\&logoColor=white)](https://github.com/rmstate)
 
 </div>
 
 ---
 
-### `// about_me`
+## `// about_me`
+
+<table>
+<tr>
+<td width="58%" valign="top">
 
 ```text
 $ whoami
 rmstate
+
+$ uname -o
+GNU/Linux
 
 $ cat /etc/motd
 Linux enthusiast.
@@ -36,31 +39,58 @@ Security engineer in progress.
 $ _
 ```
 
-I enjoy understanding how systems work under the hood — from Linux internals and network traffic to security tooling and reverse engineering.
+I enjoy figuring out why systems fail — from Linux services and routing to security tooling and network traffic.
 
 * **Systems:** Linux, Docker, Bash
 * **Networking:** routing, packet analysis, troubleshooting
 * **Security:** security tooling, reverse engineering
-* **Approach:** reproduce, investigate, verify
+* **Method:** reproduce, investigate, verify
 
-### `// currently_building`
+</td>
+<td width="42%" valign="top">
 
-**[vipnet-docker-lab](https://github.com/rmstate/vipnet-docker-lab)**
+<img src="rmstate-workspace-mono.png" width="100%" alt="Monochrome manga hacker workspace" />
 
-A hands-on investigation into running a VPN client in Docker, Linux routing, and network traffic diagnostics.
+</td>
+</tr>
+</table>
 
-`STATUS: EXPERIMENTAL`
+---
 
-### `// selected_work`
+## `// currently_building`
+
+### `vipnet-docker-lab`
+
+A hands-on investigation into running a VPN client inside Docker, with a focus on Linux routing, tunnel interfaces, NAT, and packet-level diagnostics.
+
+```text
+STATUS   : EXPERIMENTAL
+FOCUS    : DOCKER / LINUX NETWORKING
+APPROACH : TRACE FIRST, GUESS NEVER
+```
+
+> The goal is to document the setup, the failures, the evidence, and the verified results — without publishing proprietary client packages or private keys.
+
+---
+
+## `// selected_work`
 
 Projects will be featured here as they become ready for public release.
 
-### `// philosophy`
+No fake demos. No mystery claims. Just reproducible work and technical notes.
 
-> Don't guess. Trace the packets. Read the logs. Verify the fix.
+---
+
+## `// philosophy`
 
 <div align="center">
 
-`rmstate@arch:~$` **Better tools. Better understanding.**
+<img src="rmstate-city-mono.png" width="100%" alt="Monochrome manga city at night" />
+
+<br/>
+
+> **Don't guess. Trace the packets. Read the logs. Verify the fix.**
+
+`rmstate@arch:~$` — Better tools. Better understanding.
 
 </div>
