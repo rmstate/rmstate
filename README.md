@@ -59,7 +59,7 @@ I enjoy figuring out why systems fail — from Linux services and routing to sec
 
 ## `// currently_building`
 
-### `vipnet-docker-lab`
+### `vipnet-docker`
 
 A hands-on investigation into running a VPN client inside Docker, with a focus on Linux routing, tunnel interfaces, NAT, and packet-level diagnostics.
 
