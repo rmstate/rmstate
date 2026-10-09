@@ -5,6 +5,9 @@
 
 <div align="center">
 
+<img src="rmstate-banner.png" width="100%" alt="rmstate monochrome anime banner">
+
+</div>
 # `rmstate_`
 
 **Linux / Networking / Security Engineering**
