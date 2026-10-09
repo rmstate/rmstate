@@ -1,6 +1,7 @@
+````html
 <div align="center">
 
-<img src="./rmstate-banner-bw.jpg" width="100%" alt="rmstate — monochrome network engineering banner" />
+<img src="./rmstate-banner-bw.jpg" width="100%" alt="rmstate — monochrome engineering banner" />
 
 <br/>
 
@@ -37,19 +38,45 @@ Network troubleshooter.
 Security engineer in progress.
 
 $ _
-```
+````
 
 I investigate how systems behave, why they fail, and what actually fixes them — from Linux services and routing to security tooling and network traffic.
 
-- **Systems** — Linux, Docker, Bash
-- **Networking** — routing, packet analysis, troubleshooting
-- **Security** — security tooling, reverse engineering
-- **Method** — reproduce, investigate, verify
+* **Systems** — Linux, Docker, Bash
+* **Networking** — routing, packet analysis, troubleshooting
+* **Security** — security tooling, reverse engineering
+* **Method** — reproduce, investigate, verify
 
 </td>
 <td width="42%" valign="top">
 
 <img src="./rmstate-workspace-bw.jpg" width="100%" alt="Monochrome technical workstation" />
+
+### `SYSTEM STATUS`
+
+```text
+OS       : GNU/Linux
+SHELL    : zsh
+WM       : Hyprland
+FOCUS    : NETWORKS
+MODE     : INVESTIGATE
+STATUS   : OPERATIONAL
+```
+
+### `WORKFLOW`
+
+```text
+[01] OBSERVE
+[02] REPRODUCE
+[03] TRACE
+[04] IDENTIFY
+[05] VERIFY
+```
+
+```text
+root cause > assumptions
+evidence   > guesswork
+```
 
 </td>
 </tr>
@@ -63,7 +90,7 @@ I investigate how systems behave, why they fail, and what actually fixes them �
 
 **Docker / VPN / Linux networking**
 
-A completed hands-on networking lab exploring VPN client behavior inside Docker, including tunnel interfaces, routing, NAT, and packet-level diagnostics.
+A hands-on networking project investigating VPN client behavior inside Docker, including tunnel interfaces, routing, NAT, and packet-level diagnostics.
 
 ```text
 ENV       : LINUX / DOCKER
@@ -71,42 +98,24 @@ FOCUS     : ROUTING / VPN / NAT
 METHOD    : TRACE FIRST, GUESS NEVER
 ```
 
-The project captures practical troubleshooting work: reproducing connectivity issues, inspecting routes and interfaces, tracing packets, and verifying network behavior.
+The project explores practical connectivity troubleshooting:
 
----
+* Inspecting network interfaces and routing tables
+* Investigating traffic through VPN tunnel interfaces
+* Configuring IP forwarding and NAT
+* Tracing packet flow across host, container, and tunnel
+* Verifying connectivity through observable network behavior
 
-## `// approach`
-
-<div align="center">
-
-```text
- OBSERVE
-    |
-    v
- REPRODUCE
-    |
-    v
- TRACE
-    |
-    v
- IDENTIFY
-    |
-    v
- VERIFY
-```
-
-</div>
-
-I prefer evidence over assumptions. Logs, routes, sockets, packet captures, and reproducible tests are more useful than guessing which component is at fault.
+**Repository:** [github.com/rmstate/vipnet-docker](https://github.com/rmstate/vipnet-docker)
 
 ---
 
 ## `// currently_exploring`
 
-- Linux internals and system behavior
-- Network routing, tunnels, and packet analysis
-- Security tooling and practical investigation
-- Reproducible diagnostics for real-world infrastructure
+* Linux internals and system behavior
+* Network routing, tunnels, and packet analysis
+* Security tooling and practical investigation
+* Reproducible diagnostics for real-world infrastructure
 
 ---
 
@@ -123,3 +132,4 @@ I prefer evidence over assumptions. Logs, routes, sockets, packet captures, and 
 `rmstate@arch:~$` — Better tools. Better understanding.
 
 </div>
+```
