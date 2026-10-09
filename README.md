@@ -1,6 +1,6 @@
- <div align="center">
+<div align="center">
 
-<img src="rmstate-banner-mono.png" width="100%" alt="rmstate — monochrome manga banner" />
+<img src="./rmstate-banner-bw.jpg" width="100%" alt="rmstate — monochrome network engineering banner" />
 
 <br/>
 
@@ -10,9 +10,9 @@
 
 *Breaking binaries. Tracing packets. Fixing systems.*
 
-[![Linux](https://img.shields.io/badge/LINUX-222222?style=flat-square\&logo=linux\&logoColor=white)](https://github.com/rmstate)
-[![Networking](https://img.shields.io/badge/NETWORKING-222222?style=flat-square\&logo=wireshark\&logoColor=white)](https://github.com/rmstate)
-[![Security](https://img.shields.io/badge/SECURITY-222222?style=flat-square\&logo=protonvpn\&logoColor=white)](https://github.com/rmstate)
+[![Linux](https://img.shields.io/badge/LINUX-111111?style=flat-square&logo=linux&logoColor=white)](https://github.com/rmstate)
+[![Networking](https://img.shields.io/badge/NETWORKING-111111?style=flat-square&logo=wireshark&logoColor=white)](https://github.com/rmstate)
+[![Security](https://img.shields.io/badge/SECURITY-111111?style=flat-square&logo=protonvpn&logoColor=white)](https://github.com/rmstate)
 
 </div>
 
@@ -39,17 +39,17 @@ Security engineer in progress.
 $ _
 ```
 
-I enjoy figuring out why systems fail — from Linux services and routing to security tooling and network traffic.
+I investigate how systems behave, why they fail, and what actually fixes them — from Linux services and routing to security tooling and network traffic.
 
-* **Systems:** Linux, Docker, Bash
-* **Networking:** routing, packet analysis, troubleshooting
-* **Security:** security tooling, reverse engineering
-* **Method:** reproduce, investigate, verify
+- **Systems** — Linux, Docker, Bash
+- **Networking** — routing, packet analysis, troubleshooting
+- **Security** — security tooling, reverse engineering
+- **Method** — reproduce, investigate, verify
 
 </td>
 <td width="42%" valign="top">
 
-<img src="rmstate-workspace-mono.png" width="100%" alt="Monochrome manga hacker workspace" />
+<img src="./rmstate-workspace-bw.jpg" width="100%" alt="Monochrome technical workstation" />
 
 </td>
 </tr>
@@ -61,23 +61,28 @@ I enjoy figuring out why systems fail — from Linux services and routing to sec
 
 ### `vipnet-docker`
 
-A hands-on investigation into running a VPN client inside Docker, with a focus on Linux routing, tunnel interfaces, NAT, and packet-level diagnostics.
+**Container networking / VPN / Linux routing**
+
+A hands-on investigation into running a VPN client inside Docker, focusing on Linux routing, tunnel interfaces, NAT, and packet-level diagnostics.
 
 ```text
-STATUS   : EXPERIMENTAL
-FOCUS    : DOCKER / LINUX NETWORKING
-APPROACH : TRACE FIRST, GUESS NEVER
+STATUS    : EXPERIMENTAL
+ENV       : LINUX / DOCKER
+FOCUS     : ROUTING / VPN / NAT
+METHOD    : TRACE FIRST, GUESS NEVER
 ```
 
-> The goal is to document the setup, the failures, the evidence, and the verified results — without publishing proprietary client packages or private keys.
+The goal is to document the setup, reproduce failures, capture evidence, and publish verified results — without exposing proprietary packages, private keys, or sensitive network details.
 
 ---
 
 ## `// selected_work`
 
-Projects will be featured here as they become ready for public release.
+Engineering experiments, diagnostic tools, and technical notes.
 
-No fake demos. No mystery claims. Just reproducible work and technical notes.
+Projects will appear here as they become ready for public release.
+
+**No fake demos. No mystery claims. Just reproducible work.**
 
 ---
 
@@ -85,7 +90,7 @@ No fake demos. No mystery claims. Just reproducible work and technical notes.
 
 <div align="center">
 
-<img src="rmstate-city-mono(1).png" width="100%" alt="Monochrome manga city at night" />
+<img src="./rmstate-city-bw.jpg" width="100%" alt="Monochrome city at night" />
 
 <br/>
 
