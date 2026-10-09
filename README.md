@@ -4,13 +4,18 @@
 
 <br/>
 
-# `rmstate_`
+## `// system`
 
-**LINUX SYSTEMS / NETWORK ENGINEERING / SECURITY**
+```text
+┌─ rmstate@arch ──────────────────────┐
+│  ENVIRONMENT   GNU/Linux             │
+│  SYSTEMS       Linux · Docker        │
+│  NETWORK       Routing · VPN · NAT   │
+│  SECURITY      Investigation         │
+│  APPROACH      Observe → Trace → Fix │
+└─────────────────────────────────────┘
+```
 
-`Investigate. Trace. Understand.`
-
-<br/>
 
 [![Linux](https://img.shields.io/badge/LINUX-181818?style=flat-square\&logo=linux\&logoColor=white)](https://github.com/rmstate)
 [![Docker](https://img.shields.io/badge/DOCKER-181818?style=flat-square\&logo=docker\&logoColor=white)](https://github.com/rmstate)
