@@ -85,7 +85,7 @@ No fake demos. No mystery claims. Just reproducible work and technical notes.
 
 <div align="center">
 
-<img src="rmstate-city-mono.png" width="100%" alt="Monochrome manga city at night(1)" />
+<img src="rmstate-city-mono(1).png" width="100%" alt="Monochrome manga city at night" />
 
 <br/>
 
